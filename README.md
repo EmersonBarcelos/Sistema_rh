@@ -9,7 +9,7 @@
   <li>MONGODB</li>
   <li>NODEMON</li>
 </ul>
-Para rodar o projeto basta rodar:
+Para rodar o projeto basta digitar no terminal integrado da pasta:
 <pre>
   <span>npm install</span>
 </pre>
