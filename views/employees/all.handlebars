@@ -1,0 +1,14 @@
+<h1 class="header">Lista de funcionários</h1>
+<div class="employees">
+    {{#each employees}}
+    <div class="employee">
+        <h3>{{this.name}}</h3>
+        <p>CARGO: {{this.department}}</p>
+        <p>SALÁRIO: R$ {{this.salary}}</p>
+    </div>
+    <div class="actions">
+        <a href="/{{this._id}}">Detalhes</a>
+        <a href="/edit/{{this._id}}">Editar</a>
+    </div>
+   {{/each}}
+</div>

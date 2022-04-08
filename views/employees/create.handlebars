@@ -1,0 +1,30 @@
+<form name="register" method="post" action="/create" autocomplete="on" target="_self" class="register">
+  <div class="register">
+    <h1 class="header">CADASTRO</h1> 
+      <p>
+        <label for="name">Seu nome</label>
+        <input type="text" id="name" name="name" size="20" placeholder="nome" required="required">
+      </p>
+      <p>
+        <label for="email">Seu e-mail</label>
+        <input type="email" id="email" name="email" size="20" placeholder="contato@dominio" required="required">
+      </p>
+        <label for="date">Seu nascimento</label>
+        <input type="date" id="date" name="date" size="20" required="required">
+      <p>
+        <label for="salary">Seu salario</label>
+        <input type="number" id="salary" name="salary" size="20" required="required">
+      </p>
+      <p>
+        <label for="department">Seu cargo</label> 
+          <select name="department" id="department" required="required">
+            <option value="null" selected>selecione...</option>
+            <option value="Gerente">Gerente</option>
+            <option value="Analista de Sistemas">Analista de Sistemas</option>
+            <option value="Desenvolvedor">Desenvolvedor</option>
+            <option value="DBA">DBA</option>
+          </select>
+      </p>
+        <input class="button" type="submit" value="Gravar"/>
+  </div>
+</form>

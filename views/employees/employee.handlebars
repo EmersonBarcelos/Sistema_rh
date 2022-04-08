@@ -1,0 +1,14 @@
+<div class="employee-page">
+  <h1 class="header">{{employee.name}}</h1>
+  <div class="employee-det">
+        <h3>{{this.name}}</h3>
+        <p>NASCIMENTO: {{employee.date}}</p>
+        <p>EMAIL: {{employee.email}}</p>
+        <p>CARGO: {{employee.department}}</p>
+        <p>SALÁRIO: R$ {{employee.salary}}</p>
+        <form action="/remove/{{employee._id}}" method="POST">
+          <input type="submit" value="Excluir" class="button2">
+        </form>
+        <input type="button" value="Voltar" class="button2" onclick="history.go(-1)">
+  </div>
+</div>

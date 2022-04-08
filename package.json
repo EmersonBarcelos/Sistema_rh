@@ -1,0 +1,18 @@
+{
+  "name": "sistema_rh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js localhost 3000"
+  },
+  "author": "Emerson Barcelos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-handlebars": "^5.3.5",
+    "mongodb": "^4.5.0",
+    "nodemon": "^2.0.15"
+  }
+}

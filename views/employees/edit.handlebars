@@ -1,0 +1,32 @@
+<form action="/edit" method="POST" class="register">
+  <input type="hidden" name="id" id="id" value="{{employee._id}}">
+  <div class="register">
+    <h1 class="header">EDITAR CADASTRO</h1> 
+      <p>
+        <label for="name">Seu nome</label>
+        <input type="text" id="name" name="name" size="20" required="required" value="{{employee.name}}">
+      </p>
+      <p>
+        <label for="email">Seu e-mail</label>
+        <input type="email" id="email" name="email" size="20" required="required"value="{{employee.email}}">
+      </p>
+        <label for="date">Seu nascimento</label>
+        <input type="date" id="date" name="date" size="20" required="required" value="{{employee.date}}">
+      <p>
+        <label for="salary">Seu salario</label>
+        <input type="number" id="salary" name="salary" size="20" required="required" value="{{employee.salary}}">
+      </p>
+      <p>
+        <label for="department">Seu cargo</label> 
+          <select name="department" id="department" required="required">
+            <option value="null" selected>selecione...</option>
+            <option value="Gerente">Gerente</option>
+            <option value="Analista de Sistemas">Analista de Sistemas</option>
+            <option value="Desenvolvedor">Desenvolvedor</option>
+            <option value="DBA">DBA</option>
+          </select>
+      </p>
+        <input type="submit" value="Editar" class="button"/>
+        <input type="button" value="Voltar" class="button" onclick="history.go(-1)">
+  </div>
+</form>
