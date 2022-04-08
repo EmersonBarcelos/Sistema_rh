@@ -1,2 +1,11 @@
 # Sistema_rh
-Sistema de RH feito com Back-End Nodejs+express e Front-End handlebars com conexão ao mongodb
+
+<h3>Tecnologias utilizadas no projeto:</h3>
+
+<ul>
+  <li>NODEJS</li>
+  <li>EXPRESS</li>
+  <li>HANDLEBARS</li>
+  <li>MONGODB</li>
+  <li>NODEMON</li>
+</ul>
