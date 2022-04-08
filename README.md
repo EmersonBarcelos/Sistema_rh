@@ -10,7 +10,7 @@
   <li>NODEMON</li>
 </ul>
 Para rodar o projeto necessita a instalação do <a href="https://www.mongodb.com/pt-br">Mongodb</a> 
-feito isso digitar no terminal integrado da pasta:
+feito isso basta digitar no terminal integrado da pasta:
 <pre>
   <span>npm install</span>
 </pre>
